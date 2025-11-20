@@ -668,6 +668,17 @@ body {
         font-size: 2rem;
     }
 
+    .status-badge {
+        min-width: 70px;
+        bottom: -15px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .status-text {
+        font-size: 0.65rem;
+    }
+
     .chat-messages {
         max-height: 400px;
         padding: var(--space-md);
