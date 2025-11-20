@@ -650,17 +650,23 @@ body {
     }
 
     .hero {
-        min-height: 80vh;
+        min-height: 100vh;
         padding: var(--space-lg) var(--space-sm);
     }
 
+    /* Reposition and resize background to show person on right */
+    .hero::before {
+        background-position: 70% bottom;
+        background-size: auto 85%;
+    }
+
     .avatar-circle {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     .avatar-text {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .chat-messages {

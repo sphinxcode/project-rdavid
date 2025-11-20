@@ -368,6 +368,25 @@
     margin: 0 auto;
 }
 
+/* Proof Image */
+.proof-image-container {
+    text-align: center;
+    margin-bottom: var(--space-lg);
+}
+
+.proof-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    transition: all var(--transition-base);
+}
+
+.proof-image:hover {
+    transform: scale(1.02);
+    box-shadow: var(--shadow-xl, 0 25px 50px -12px rgba(0, 0, 0, 0.25));
+}
+
 /* Spacer Utility */
 .spacer {
     height: var(--space-lg);
