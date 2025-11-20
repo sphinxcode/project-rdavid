@@ -137,6 +137,12 @@ body {
     padding: var(--space-xl) var(--space-md);
 }
 
+/* Vanta.js canvas - push behind background image */
+.hero canvas {
+    position: absolute !important;
+    z-index: 1 !important;
+}
+
 /* Hero Background Image */
 .hero::before {
     content: '';
@@ -155,7 +161,7 @@ body {
 }
 
 [data-theme="dark"] .hero::before {
-    background-image: url('hero_bg_light.png');
+    background-image: url('https://raw.githubusercontent.com/sphinxcode/assets/refs/heads/main/hero_bg_light.png');
 }
 
 .hero-content {
