@@ -654,10 +654,9 @@ body {
         padding: var(--space-lg) var(--space-sm);
     }
 
-    /* Reposition and resize background to show person on right */
+    /* Reposition background to show person on right */
     .hero::before {
-        background-position: 70% bottom;
-        background-size: auto 85%;
+        background-position: 70% center;
     }
 
     .avatar-circle {
