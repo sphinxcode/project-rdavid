@@ -668,6 +668,10 @@ body {
         font-size: 2rem;
     }
 
+    .status-text {
+        font-size: 0.65rem;
+    }
+
     .chat-messages {
         max-height: 400px;
         padding: var(--space-md);
